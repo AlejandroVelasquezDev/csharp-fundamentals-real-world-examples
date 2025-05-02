@@ -1,4 +1,5 @@
-﻿using Operators.ArithmeticOperators.PersonalFinanceApp;
+﻿using Operators.ArithmeticOperators.IntegerOverflow;
+using Operators.ArithmeticOperators.PersonalFinanceApp;
 using Operators.RelationalOperators;
 
 namespace Operators
@@ -9,7 +10,8 @@ namespace Operators
         {
             Console.WriteLine("Hello, World!");
             //ExampleEducationLoan.Run();
-            FinanceApp.Run();
+            //FinanceApp.Run();
+            IntegerOverflow.Run();
             
         }
     }
