@@ -1,4 +1,5 @@
-﻿using Operators.RelationalOperators;
+﻿using Operators.ArithmeticOperators.PersonalFinanceApp;
+using Operators.RelationalOperators;
 
 namespace Operators
 {
@@ -7,7 +8,8 @@ namespace Operators
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            ExampleEducationLoan.Run();
+            //ExampleEducationLoan.Run();
+            FinanceApp.Run();
             
         }
     }
